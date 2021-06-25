@@ -87,6 +87,49 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+}
+
+#container {
+  margin: 1em;
+  max-width: 300px;
+}
+
+h1,
+h2,
+p[role="doc-subtitle"] {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+}
+
+h1 {
+  font-size: 1.6em;
+  margin: 0;
+}
+
+p[role="doc-subtitle"] {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+a {
+  color: inherit;
+  font-weight: 800;
+  padding: 0.6em;
+}
+
+#contact-links a:first-of-type {
+  margin-left: -0.6em;
+  /* background-color: red; */
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +303,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
